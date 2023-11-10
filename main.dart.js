@@ -43206,7 +43206,7 @@ s=J.jK(a5,"+")?3:5
 break
 case 3:a4.b=H.hb(a5,"+","")
 a5=t.O
-a=P.aa(["Content-Type","application/json"],a5,a5)
+a=P.aa(["Content-Type","application/json","Access-Control-Allow-Origin","*"],a5,a5)
 a0=O.jj("POST",P.cX(u.B,0,null))
 a1=m.c
 a0.soJ(0,C.J.f6(P.aa(["jsonrpc","2.0","params",P.aa(["db","plataforma_motion","login",a4.b,"password",a1],a5,a5)],a5,t.c)))
